@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsp/jstl/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+<h:head>
+</h:head>
+<body>
+	<ui:composition template="/templates/templateUser.xhtml">
+		<ui:define name="title">Cart</ui:define>
+		<ui:define name="content">
+
+			<div class="title">
+				<span class="title_icon"> <h:graphicImage library="images"
+						name="bullet1.gif" />
+				</span>My cart
+			</div>
+			<div class="feat_prod_box_details">
+				<table class="cart_table">
+					<tbody>
+						<tr class="cart_title">
+							<td>Item pic</td>
+							<td>Product name</td>
+							<td>Unit price</td>
+							<td>Qty</td>
+							<td>Total</td>
+						</tr>
+						<tr>
+							<td><a
+								href="http://all-free-download.com/free-website-templates/">
+									<h:graphicImage library="images" name="cart_thumb.gif"
+										styleClass="cart_thumb" />
+							</a></td>
+							<td>Gift flowers</td>
+							<td>100$</td>
+							<td>1</td>
+							<td>100$</td>
+						</tr>
+						<tr>
+							<td><a
+								href="http://all-free-download.com/free-website-templates/"><h:graphicImage
+										library="images" name="cart_thumb.gif" styleClass="cart_thumb" /></a></td>
+							<td>Gift flowers</td>
+							<td>100$</td>
+							<td>1</td>
+							<td>100$</td>
+						</tr>
+						<tr>
+							<td><a
+								href="http://all-free-download.com/free-website-templates/"><h:graphicImage
+										library="images" name="cart_thumb.gif" styleClass="cart_thumb" /></a></td>
+							<td>Gift flowers</td>
+							<td>100$</td>
+							<td>1</td>
+							<td>100$</td>
+						</tr>
+						<tr>
+							<td colspan="4" class="cart_total"><span class="red">TOTAL
+									SHIPPING:</span></td>
+							<td>250$</td>
+						</tr>
+						<tr>
+							<td colspan="4" class="cart_total"><span class="red">TOTAL:</span></td>
+							<td>325$</td>
+						</tr>
+					</tbody>
+				</table>
+				<a href="http://all-free-download.com/free-website-templates/"
+					class="continue">&lt; continue</a> <a
+					href="http://all-free-download.com/free-website-templates/"
+					class="checkout">checkout &gt;</a>
+			</div>
+			<div class="clear"></div>
+
+		</ui:define>
+	</ui:composition>
+</body>
+</html>
